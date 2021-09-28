@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <title>Car Dealership</title>
+</head>
+<body>
+  <div class="container">
+    <form action="/cars" method="post">
+    <div class="form-group">
+      <label for="makeModel" class="form-label">Model:</label>
+      <input id="makeModel" name="makeModel" type="text" class="form-control" placeholder="ex. Honda HR-V" required>
+    </div>
+    <div class="form-group">
+      <label for="price" class="form-label">Price:</label>
+      <input id="price" name="price" type="number" class="form-control" placeholder="10,000" required>
+    </div>
+    <div class="form-group">
+      <label for="miles" class="form-label">Miles:</label>
+      <input id="miles" name="miles" type="number" class="form-control" placeholder="40,000" required>
+    </div>
+      <button type="submit" class="btn btn-dark">Add!</button>
+    </form>
+  </div>
+</body>
+</html>
